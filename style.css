@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+*{
+    margin:  0;
+    padding: 0;
+    font-family: 'Fredoka';
+}
+.chat-nav{
+    display: flex;
+    height: 4rem;
+    background-color: #0a1014;
+}
+
+.user{   
+    color: #c9ccd1;
+    font-size: 42px;
+    border-radius: 70px;
+    position: relative;
+    left: 1rem;
+    top: 8px;
+
+}
+
+.nav-icons{
+    margin-left: 60rem;
+    position: relative;
+    top: 8px;
+}
+
+.nav-icons i{
+    font-size: 22px;
+    padding: 10px;
+    color: #c9ccd1;
+
+}
+
+.nav-text{
+    margin-left: 3rem;
+    position: relative;
+    top: 10px;
+}
+
+.nav-text h3{
+    font-size: 20px;
+    color: #c9ccd1;
+}
+.nav-text p{
+    color: #c9ccd1;
+}
+.chat-area{
+    background-color: rgb(245, 240, 240);
+    height: 32.65rem;
+}
+.send-chat{
+    display: flex;
+    background-color: #0a1014;
+    height: 4rem;
+    align-items: center;
+}
+
+.send-chat i{
+    font-size: 22px;
+    padding: 0 10px;
+    color: #c9ccd1;
+
+    
+}
+
+input{
+    font-size: 22px;
+    width: 50rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #c9ccd1;
+    position: relative;
+    left: 35px;
+}
+
+.fa-microphone{
+    position: relative;
+    left: 25rem
+}
